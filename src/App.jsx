@@ -8,6 +8,7 @@ import About from './Components/About';
 import Home from './Components/Home';
 import { Routes, Route } from "react-router-dom";
 import Footer from './Components/Footer';
+import Auth from './Components/Auth';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='/Services' element={<Services/>}/>
          <Route path='/Gallery' element={<Gallery/>}/>
           <Route path='/Contact' element={<Contact/>}/>
+          <Route path='/Auth' element={<Auth/>}/>
       </Routes>
       
 

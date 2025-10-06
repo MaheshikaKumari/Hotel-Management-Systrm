@@ -80,11 +80,10 @@ const Gallery = () => {
             <h3 className="text-lg font-semibold text-amber-800">Luxury Lobby</h3>
           </div>
         </div>
-
+       
       </div>
     </div>
-
-    
+     
   );
 };
 
